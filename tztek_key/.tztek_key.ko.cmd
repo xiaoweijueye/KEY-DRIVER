@@ -1,0 +1,1 @@
+cmd_/home/linux/demo/tztek_key/tztek_key.ko := aarch64-linux-gnu-ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/linux/demo/tztek_key/tztek_key.ko /home/linux/demo/tztek_key/tztek_key.o /home/linux/demo/tztek_key/tztek_key.mod.o ;  true
